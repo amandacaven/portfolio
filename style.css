@@ -1,0 +1,829 @@
+body{
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0 auto;
+    color: black;
+    font-family: Agency FB;
+
+}
+
+h1{
+    margin-left: 20.5%;
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2{
+    font-size: 40px;
+}
+
+header{
+    background-color: white;
+    top: 0px;
+    width: 100%;
+    
+}
+
+hr{
+    border-color: gray;
+    margin-top: 0;
+    border-style: dotted;
+
+}
+
+.navbar{
+    font-size: 20px;
+
+}
+
+.navbar-brand{
+    font-size: 30px;
+    
+}
+
+
+/*
+nav{
+
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+*/
+
+
+/*
+
+ul{
+    margin: 0 auto;
+    padding: 15px;
+
+}
+*/
+
+/*
+ul li{
+
+    margin-right: 3%;
+    margin-left: 3%;
+    display: inline;
+   
+
+}
+*/
+
+/*
+nav a{
+ 
+
+}
+
+nav a:link{
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+nav a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: gray;
+    text-decoration: none;
+}
+*/
+
+#logo{
+    margin: 0 auto;
+    top: -237px;
+position: relative;
+height: 200px;
+    max-width: 100%;
+    size: auto;
+
+}
+
+
+
+.tagline{
+   
+    display: block;
+    margin: 0 auto;
+    font-family: Agency FB;
+    font-size: 120px;
+    color: #576890;
+    line-height: 1em;
+    margin-top: 55px;
+
+
+
+
+}
+
+.subhead{
+   
+    display: block;
+    margin: 0 auto;
+    font-family: Agency FB;
+    font-size: 50px;
+    color: #576890;
+
+}
+
+#cover{
+    height: 800px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+/*    background-position: 50% 50%;*/
+    background-image: url("_images/top32002.png"), url('_images/me2_small.png');
+    background-position: bottom center, left;
+    background-color: white;
+    background-repeat: no-repeat;
+/*    background-size: contain;*/
+/*
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+*/
+    background-size: contain;
+}
+
+
+
+
+}
+
+#innercover{
+    padding-top: 7%;
+    padding-bottom: 0;
+    margin: 0;
+
+}
+
+img{
+    height: auto;
+    width: auto;
+}
+
+
+
+#worksquare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0;
+ 
+
+}
+
+#worksquare a:hover{
+    opacity: .5;
+}
+
+
+#imagelightbox
+{
+    position: fixed;
+    z-index: 9999;
+ 
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+
+#worksquare2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+#worksquare2 a:hover{
+    opacity: .5;
+}
+
+#worksquare3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+    margin: 0;
+}
+
+
+
+#square1{
+    background: url(_images/blockprint_mockup.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+    width: 325px;
+    height: 325px;
+    float: left;
+/*    margin: 1%;*/
+    position: relative;
+
+
+}
+
+#square1 a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; /* No underlines on the link */
+    z-index: 10; /* Places the link above everything else in the div */
+    background-color: #FFF; /* Fix to make div clickable in IE */
+    opacity: 0; /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+    
+}
+
+#square2{
+    background: url(_images/universe_gray.png) 50% 50% no-repeat; /* 50% 50% centers image in div */
+    width: 325px;
+    height: 325px;
+    float: left;
+/*    margin: 1%;*/
+    position: relative;
+
+}
+
+#square2 a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; /* No underlines on the link */
+    z-index: 10; /* Places the link above everything else in the div */
+    background-color: #FFF; /* Fix to make div clickable in IE */
+    opacity: 0; /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
+
+#square3{
+    background: url(_images/tshirt_mockup.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+    width: 325px;
+    height: 325px;
+    float: left;
+/*    margin: 1%;*/
+    position: relative;
+
+
+
+}
+
+#square3 a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; /* No underlines on the link */
+    z-index: 10; /* Places the link above everything else in the div */
+    background-color: #FFF; /* Fix to make div clickable in IE */
+    opacity: 0; /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
+
+#square4{
+    background: url(_images/banner_mockup.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+    width: 325px;
+    height: 325px;
+    float: left;
+/*    margin: 1%;*/
+    position: relative;
+
+
+
+}
+
+#square4 a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; /* No underlines on the link */
+    z-index: 10; /* Places the link above everything else in the div */
+    background-color: #FFF; /* Fix to make div clickable in IE */
+    opacity: 0; /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
+
+#square5{
+    background: url(_images/11.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+    width: 325px;
+    height: 325px;
+    float: left;
+/*    margin: 1%;*/
+    position: relative;
+  
+
+
+}
+
+#square6{
+    background: url(_images/11.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+    width: 325px;
+    height: 325px;
+    float: left;
+/*    margin: 1%;*/
+
+
+
+}
+
+#square7{
+    background: url(_images/11.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+    width: 325px;
+    height: 325px;
+    float: left;
+/*    margin: 1%;*/
+
+
+
+}
+
+#square8{
+    background: url(_images/11.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+    width: 325px;
+    height: 325px;
+    float: left;
+/*    margin: 1%;*/
+
+
+
+}
+
+#square9{
+    background: url(_images/11.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+    width: 325px;
+    height: 325px;
+    float: left;
+/*    margin: 1%;*/
+
+
+
+}
+
+
+#square1:hover{
+    opacity: .5;
+}
+
+#about{
+    
+    display: flex;
+/*    justify-content: center;*/
+ /*   align-items: center;*/
+    background-color: #576890;
+/*    background-position: 50% 50%;*/
+    color: white;
+
+    
+}
+
+#about h1{
+ margin-top: 3.75%;
+    margin-bottom: 0;
+    padding-top: 0;
+
+}
+
+.aboutcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #576890;
+    height: 350px;
+    width: 100%;
+    background-image: url('_images/about3200.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+   
+  
+}
+
+/*
+#aboutimg{
+    position: relative;
+    float: left;
+    background: url(_images/placeimg.jpg) 50% 50% no-repeat;  50% 50% centers image in div 
+    width: 250px;
+    height: 250px;
+    margin: 0 2.5% 0 0;
+    border-radius: 50%;
+    
+   
+}
+*/
+
+#abouttext{
+    position: relative;
+    width: 400px;
+        height: 250px;
+    float: left;
+    margin: 0 0 0 2.5%;
+    color: white;
+    font-size: 20px;
+}
+
+#empty{
+ background-image: url('_images/contact3200.png');
+    background-position: top;
+}
+
+
+#container{
+
+/*    display: flex;*/
+    justify-content: center;
+
+    align-items: center;
+    
+/*    height: 400px;*/
+    background-color: #00c78c;
+    color: white;
+    margin: 0 ;
+
+    width: 100%;
+
+    
+    
+
+}
+
+#contact h1{
+    padding-top: 3.75%;
+    padding-bottom: 2%;
+}
+
+.contactform{
+    background-color: transparent;
+    margin: 0;
+}
+
+#contactarea{
+
+background-color: #00c78c;
+    margin: 0;
+    padding-bottom: 1%;
+    
+    
+}
+
+
+form{
+    width: 100%;
+    margin: 0;
+}
+
+
+.formwrap{
+margin: 0;
+
+}
+.formwrap2{
+
+position: relative;
+    float: left;
+}
+
+textarea {
+    resize: none;
+}
+
+
+footer{
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+    height: 300px;
+    background-image: url('_images/bottom3200.png');
+        background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+
+
+
+/******SOCIAL MEDIA NAV****/
+@font-face {
+    font-family: 'si';
+    src: url('fonts/socicon.eot');
+    src: url('fonts/socicon.eot?#iefix') format('embedded-opentype'),
+         url('fonts/socicon.woff') format('woff'),
+         url('fonts/socicon.ttf') format('truetype'),
+         url('fonts/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(fonts/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+    
+
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 18px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-right: 6px;
+    color: gray;
+    background-color: none;
+}
+
+.soc a:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter:before {
+    content:'a';
+}
+.soc-facebook:before {
+    content:'b';
+}
+.soc-linkedin:before {
+    content:'j';
+}
+
+
+//** SOCIAL MEDIA FOOTER*///
+@font-face {
+    font-family: 'si';
+    src: url('fonts/socicon.eot');
+    src: url('fonts/socicon.eot?#iefix') format('embedded-opentype'),
+         url('fonts/socicon.woff') format('woff'),
+         url('fonts/socicon.ttf') format('truetype'),
+         url('fonts/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(fonts/socicon.svg) format(svg);
+    }
+}
+
+.soc2 {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+
+}
+
+.soc2 li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc2 li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 18px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-right: 6px;
+    color: white;
+    background-color: none;
+}
+
+.soc2 a:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter:before {
+    content:'a';
+}
+.soc-facebook:before {
+    content:'b';
+}
+.soc-linkedin:before {
+    content:'j';
+}
+
+
+
+@media only screen and (max-width: 580px) {
+    #cover{
+    background-image: url('_images/me2_smallest.png');
+
+        }
+ 
+}
+
+
+
+
+@media all and (max-width: 500px) {
+    .tagline{font-size:50px;}
+    .subhead{font-size: 25px;}
+    h1{font-size: 40px;}
+    #about h1 {text-align: center;}
+    
+}
+
+
+
+/************LIGHTBOX FROM LINE25.COM STYLES*/
+	/* jQuery lightBox plugin - Gallery thumbnails styles */
+		* {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		#lightbox-container-image-data-box,
+		.gallery img {
+			/* Revert to default box-sizing for the data-box and the images */
+			-webkit-box-sizing: content-box;
+			-moz-box-sizing: content-box;
+			box-sizing: content-box;
+            
+		}
+		.gallery {
+			background-color: white;
+			padding-bottom: 30px;
+			width: 100%;
+            
+		}
+		.gallery ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+            
+		}
+		.gallery ul li { display: inline; }
+		.gallery ul img {
+/*
+			border-style: solid;
+			border-color: #444;
+			border-width: 5px 5px 20px;
+            
+*/
+            margin: 0;
+            padding: 0;
+		}
+		.gallery ul a {
+			text-decoration: none;
+                margin: 0;
+                padding: 0;
+		}
+		.gallery ul a:hover img {
+/*			border-color: #fff;*/
+			color: #fff;
+		}
+		.gallery ul a:hover { color: #fff; }
+		.columns:before,
+		.columns:after {
+			content: " ";
+			display: table;
+		}
+		.columns:after {
+			clear: both;
+		}
+		.columns1 {
+			*zoom: 1;
+/*
+			margin-left: -15px;
+			margin-right: -15px;
+*/
+/*
+            justify-content: center;
+            align-items: center;
+*/
+            text-align: center;
+          
+		}
+		.column {
+			width: 100%;
+			float: left;
+			position: relative;
+/*
+
+			padding-left: 15px;
+			padding-right: 15px;
+*/
+            padding: 0;
+            margin: 0;
+
+            
+            
+		}
+	
+
+/*******END LIGHTBOX*/
+
+ .anti{
+    -webkit-font-smoothing: antialiased;
+    }
